@@ -1,0 +1,30 @@
+# Environment
+.venv/
+.env
+
+# DuckDB database file (contains personal financial data)
+*.duckdb
+*.duckdb.wal
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/.user.yml
+
+# VS Code
+.vscode/settings.json
+
+# Data exports
+data/exports/
+
+# OS
+Thumbs.db
+.DS_Store

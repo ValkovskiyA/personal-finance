@@ -1,0 +1,29 @@
+# Database
+duckdb==1.1.3
+
+# dbt
+dbt-core==1.8.0
+dbt-duckdb==1.8.1
+
+# Ingestion
+requests==2.32.3
+numpy==1.26.4
+pandas==2.2.3
+openpyxl==3.1.2
+
+# Orchestration
+prefect==3.3.0
+
+# App
+streamlit==1.35.0
+plotly==5.22.0
+
+# Notifications
+google-auth==2.29.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.130.0
+
+# Utilities
+python-dotenv==1.0.1
+pyyaml==6.0.1
+loguru==0.7.2
